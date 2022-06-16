@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>CREDIT CARD VALIDATION </title>
+		<script src="validate.js">
+		</script>
+	</head>
+	<body>
+		<center>
+			<h1>CREDIT CARD VALIDATION</h1>
+			<div  id="div1" class="container">
+				<label>Name : </label>   
+				<input id="name" type="text" placeholder="Enter Name" required>  <br>
+				<label>Card Number : </label>   
+				<input  id="cdnumber" type="number" placeholder="Enter 16-digit Number" size="16" maxlength="16" required>  <br>
+				<label>CVV : </label>   
+				<input id="cvv" type="password" placeholder="Enter CVV" required><br>
+				<label>Expiry :</label>
+				<input id="expiry" type="month" value="2022-03"><br>
+				<input type=submit value="Validate" onclick="validate_credit()">
+			</div>
+		</center>
+	</body>
+</html>
